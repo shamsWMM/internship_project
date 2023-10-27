@@ -2,8 +2,9 @@
 
 ## This repository contains the following components:
 - PQC: Setting Up a Quantum-Safe Ubuntu
-- CloudLab: Setting Up an MPTCP Topology on CloudLab
+- MPTCP: Setting Up MPTCP on Ubuntu
 - L4S: Setting Up L4S on Routers
+- CloudLab: Files for Creating the MPTCP-L4S-PQC Topology
 - profile.py: A geni-lib Script for CloudLab
 
 > Note: To use this repository as a CloudLab profile, a profile.py file is added here in the top-level directory of this repository. This will enable the instantiation of the repository-based profile on CloudLab.
