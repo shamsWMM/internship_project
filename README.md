@@ -8,7 +8,7 @@
 - profile.py: A geni-lib Script for CloudLab
 
 > Note: To use this repository as a CloudLab profile, a profile.py file is added here in the top-level directory of this repository. This will enable the instantiation of the repository-based profile on CloudLab.
-
+> Instantiating a CloudLab profile using a repository leads to the cloning of the repository into the directory '/local/repository' on all nodes within the CloudLab experiment.
 
 
 
