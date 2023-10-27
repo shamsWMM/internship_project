@@ -1,4 +1,5 @@
 # Setting Up a Quantum-Safe Ubuntu
+```bash
 #Update package lists and install updates
 $ cd
 $ sudo apt update
@@ -117,3 +118,4 @@ openssl list -kem-algorithms
 
 #Reload environment to ensure new SSL_CERT_DIR variable persists
 source /etc/environment
+```
