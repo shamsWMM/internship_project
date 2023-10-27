@@ -1,4 +1,5 @@
 # Internship Project: MPTCP, L4S, and PQC Setup
+The experiment here is using Ubuntu 22.04 systems with Linux version 5.15.
 
 ## This repository contains the following components:
 - PQC: Setting Up a Quantum-Safe Ubuntu
