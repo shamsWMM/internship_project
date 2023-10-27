@@ -1,1 +1,1 @@
-# Setting Up a Quantum Safe Ubuntu
+# Setting Up a Quantum-Safe Ubuntu
