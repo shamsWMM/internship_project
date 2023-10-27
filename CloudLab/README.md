@@ -1,5 +1,4 @@
 # CloudLab Instructions
-This directory contains startup scripts to configure nodes on the CloudLab topology.
 
 ## 1.1  Creating the Topology
 1. Log in to your CloudLab account.
@@ -19,3 +18,10 @@ This directory contains startup scripts to configure nodes on the CloudLab topol
 3. Click Edit under Repository Info.
 4. Click Update next to the Repository link.
    Upon a successful update, a preview of the last log made on the repository will be shown under Repository Info.
+
+# 1.4 Running Startup Scripts on Nodes
+To run a startup script on the node upon instatiating the topoloyg: 
+1. Create the .sh file with the appropriate name (e.g. client.sh, emulator1.sh, etc.) and save the file in the CloudLab directory in this repository.
+2. Navigate to profile.py on the top-level directory of the repository, and uncomment the line containing the "addService" method for the corresponding node.
+3. Commit all changes then follow the instructions in section [1.3 above](#13-Implementing-Updates-from-the-GitHub-Repository) to update the profile.
+4. Instantiate the updated profile.
