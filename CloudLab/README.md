@@ -17,4 +17,5 @@ This directory contains startup scripts to configure nodes on the CloudLab topol
 1. Navigate to CloudLab main page.
 2. From Experiments > My Profiles click on the project profile.
 3. Click Edit under Repository Info.
-4. Click Update next to the Repository link. 
+4. Click Update next to the Repository link.
+   Upon a successful update, a preview of the last log made on the repository will be shown under Repository Info.
