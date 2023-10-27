@@ -109,13 +109,13 @@ $ cd .. && sudo rm -rf oqs-provider-0.5.2/
 
 #Change openssl.cnf to activate configuration
 $ sudo sed -i '/default = default_sect/a oqsprovider = oqsprovider_sect\n[oqsprovider_sect]\nactivate = 1\n' /etc/ssl/openssl.cnf
-$ sudo sed -i '/# activate = 1/c activate = 1\n' /usr/lib/ssl/openssl.cnf
+$ sudo sed -i '/# activate = 1/c activate = 1\n' /etc/ssl/openssl.cnf
 
 #Perform final checks
 openssl list -providers -verbose
 openssl list -signature-algorithms
 openssl list -kem-algorithms
 
-#Reload environment to ensure new SSL_CERT_DIR variable persists
+#Reload environment for the SSL_CERT_DIR variable to persist
 source /etc/environment
 ```
