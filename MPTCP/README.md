@@ -5,7 +5,7 @@ Further details can be found by inspecting the profile.py file on the top-level 
 Instantiate the profile as per the [instrcutions found on the CloudLab directory](../CloudLab/README.md).
 You can use traceroute on the server and the client ensure the routing is working as planned. Results should be similar to the following:
 
-On the server
+On the server side
 ```bash
 traceroute 192.168.10.2
 # traceroute to 192.168.10.2 (192.168.10.2), 30 hops max, 60 byte packets
@@ -18,7 +18,7 @@ traceroute 192.168.20.2
 # 2  emulator2-link-3 (192.168.2.1)  30.363 ms  30.333 ms  30.306 ms
 # 3  client-link-2 (192.168.20.2)  30.405 ms  30.375 ms  30.343 ms
 ```
-On the client
+On the client side
 ```bash
 traceroute 192.168.4.1
 # traceroute to 192.168.4.1 (192.168.4.1), 30 hops max, 60 byte packets
