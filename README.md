@@ -23,7 +23,6 @@ The experiment here is using Ubuntu 22.04 systems with Linux version 5.15.
 
 
 References:
-- https://dl.acm.org/doi/fullHtml/10.1145/2578508.2591369
 - http://docs.cloudlab.us/geni-lib.html
 - https://docs.cloudlab.us/creating-profiles.html
 - https://github.com/emulab/my-profile/blob/master/profile.py
