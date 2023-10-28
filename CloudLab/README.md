@@ -4,7 +4,7 @@
 1. Log in to your CloudLab account.
 2. Navigate to Experiments > Create Experiment Profile.
 3. Create a name for the profile such as "internship_project".
-4. Select Git Repo and copy and paste the link for [our GitHub repository](https://github.com/shamsWMM/internship_project.git).
+4. Select Git Repo and copy and paste the link for [this repository](https://github.com/shamsWMM/internship_project.git).
 5. Click Confirm then click Create.
 
 # 1.2 Instantiating the profile
@@ -21,7 +21,7 @@
 
 # 1.4 Running Startup Scripts on Nodes
 To run a startup script on the node upon instatiating the topoloyg: 
-1. Check the [CloudLab](.) directory for an existing .sh file for the node of interest.
+1. Check the [CloudLab directory](.) for an existing .sh file for the node of interest.
 2.a If the .sh file exists for the node (e.g. client.sh, emulator1.sh, etc.): edit the startup file then go to step 5.
 2.b If the .sh file does not exist: Create a .sh file with the appropriate name (e.g. client.sh) and save the file in the [CloudLab directory](.).
 4. Navigate to [profile.py](../profile.py) on the top-level directory and uncomment the line containing the "addService" method for the corresponding node.
