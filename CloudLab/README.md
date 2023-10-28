@@ -21,7 +21,9 @@
 
 # 1.4 Running Startup Scripts on Nodes
 To run a startup script on the node upon instatiating the topoloyg: 
-1. Create the .sh file with the appropriate name (e.g. client.sh, emulator1.sh, etc.) and save the file in the CloudLab directory in this repository.
-2. Navigate to profile.py on the top-level directory of the repository, and uncomment the line containing the "addService" method for the corresponding node.
-3. Commit all changes then follow the instructions in section [1.3 above](#13-Implementing-Updates-from-the-GitHub-Repository) to update the profile.
-4. Instantiate the updated profile.
+1. Check the [CloudLab](.) directory for an existing .sh file for the node of interest.
+2.a If the .sh file exists for the node (e.g. client.sh, emulator1.sh, etc.): edit the startup file then go to step 5.
+2.b If the .sh file does not exist: Create a .sh file with the appropriate name (e.g. client.sh) and save the file in the [CloudLab directory](.).
+4. Navigate to [profile.py](../profile.py) on the top-level directory and uncomment the line containing the "addService" method for the corresponding node.
+5. Commit all changes then follow the instructions in section [1.3 above](#13-Implementing-Updates-from-the-GitHub-Repository) to update the profile.
+6. Instantiate the updated profile.
