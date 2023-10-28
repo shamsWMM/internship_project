@@ -37,10 +37,11 @@ traceroute 192.168.3.1
 ```bash
 # Verify MPTCP is enabled
 sudo sysctl net.mptcp.enabled
-# output: net.mptcp.enabled = 1
+# net.mptcp.enabled = 1
 
 # Show current configuration
 ip mptcp limit show
+# add_addr_accepted 0 subflows 0 
 ```
 ### Server Configuration
 ```bash
