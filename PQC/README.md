@@ -1,7 +1,6 @@
 # Setting Up a Quantum-Safe Ubuntu
 ```bash
 #Update package lists and install updates
-cd
 sudo apt update
 sudo apt -y full-upgrade
 
