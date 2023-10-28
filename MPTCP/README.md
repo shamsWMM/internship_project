@@ -3,7 +3,7 @@
 Further details can be found by inspecting the profile.py file on the top-level directory of this repository.
 
 Instantiate the profile as per the instrcutions found on [README.md in CloudLab](../CloudLab/README.md).
-> You can use traceroute on the server and the client ensure the routing is working as planned. Results should be similar to the ones below
+You can use traceroute on the server and the client ensure the routing is working as planned. Results should be similar to the ones below
 ```bash
 traceroute 192.168.10.2
 # traceroute to 192.168.10.2 (192.168.10.2), 30 hops max, 60 byte packets
