@@ -45,6 +45,42 @@ ip mptcp limit show
 ```
 ### Server Configuration
 ```bash
-# Add one more subflow to 
-```
+# Install tools
+# iperf3
+sudo apt -y install iperf3
+# python
+sudo apt install python-is-python3
+# MPTCP Daemon
+sudo apt -y install mptcpd
+# bmon (bandwidth monitor)
+sudo apt -y install bmon
 
+# Add one more subflow
+sudo ip mptcp limits set subflow 1
+# The path manager should initiate a new sub-flow using the second interface
+# Adjust according to interface details
+sudo ip mptcp endpoint add <second ip address> dev <interface name> subflow signal
+# We will be serving a file using python. Use mptcpize to force application to use mptcp
+sudo mptcpize run python -m http.server 8000
+# Confirm it's working
+sudo ip mptcp monitor
+```
+### Client Configuration
+```bash
+# Install tools
+# iperf3
+sudo apt -y install iperf3
+# python
+sudo apt install python-is-python3
+# MPTCP Daemon
+sudo apt -y install mptcpd
+# bmon (bandwidth monitor)
+sudo apt -y install bmon
+
+# Add one more subflow
+sudo ip mptcp limits set subflow 1
+# Use bmon to monitor interfaces
+sudo bmon -b
+# Use mptcpize to download a file from the running server
+sudo mptcpize run wget <ip address>:<port>/<path to file>
+```
