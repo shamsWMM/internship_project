@@ -1,5 +1,5 @@
 # Setting Up L4S on Routers
-The following can also be added to the (router startup scripts)[../CloudLab/router1.sh] before updating and instatiating the profile on CloudLab.
+The following can also be added to the [router startup scripts](../CloudLab/router1.sh) before updating and instatiating the profile on CloudLab.
 ```bash
 # Implement L4S. source: https://github.com/L4STeam/linux
 wget https://github.com/L4STeam/linux/releases/download/testing-build/l4s-testing.zip
