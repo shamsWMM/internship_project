@@ -4,6 +4,7 @@ Further details can be found by inspecting the profile.py file on the top-level 
 
 Instantiate the profile as per the [instrcutions found on the CloudLab directory](../CloudLab/README.md).
 You can use traceroute on the server and the client ensure the routing is working as planned. Results should be similar to the following:
+
 On the server
 ```bash
 traceroute 192.168.10.2
