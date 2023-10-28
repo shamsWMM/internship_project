@@ -2,7 +2,7 @@
 >We are working on Ubuntu 22.04 running Linux 5.15. Our architecture consists of a server and a client, connected over two separate links.
 Further details can be found by inspecting the profile.py file on the top-level directory of this repository.
 
-Instantiate the profile as per the instrcutions found on [CloudLab](../CloudLab/README.md).
+Instantiate the profile as per the [instrcutions found on the CloudLab directory](../CloudLab/README.md).
 You can use traceroute on the server and the client ensure the routing is working as planned. Results should be similar to the following:
 ```bash
 traceroute 192.168.10.2
