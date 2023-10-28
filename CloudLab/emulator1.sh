@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt -y full-upgrade
 
-# get control and experiment interface names
+# Get control and experiment interface names
 ifacetoC=$(ifconfig | grep -B1 "inet 192.168.10.1" | head -n1 | cut -f1 -d:)
 ifacetoS=$(ifconfig | grep -B1 "inet 192.168.1.1" | head -n1 | cut -f1 -d:)
 
