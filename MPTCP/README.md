@@ -1,7 +1,5 @@
 # Setting Up MPTCP on Client and Server
->We are working on Ubuntu 22.04 running Linux 5.15.
-
->Our architecture consists of a server and a client, connected over two separate links.
+>We are working on Ubuntu 22.04 running Linux 5.15. Our architecture consists of a server and a client, connected over two separate links.
 Further details can be found by inspecting the profile.py file on the top-level directory of this repository.
 
 Instantiate the profile as per the instrcutions found on [README.md in CloudLab](../CloudLab/README.md).
