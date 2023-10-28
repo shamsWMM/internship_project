@@ -3,7 +3,7 @@
 ## 1.1  Creating the Topology
 1. Log in to your CloudLab account.
 2. Navigate to Experiments > Create Experiment Profile.
-3. Create a name for the profile such as "[internship_project]"(https://www.cloudlab.us/p/mptcpl4spqc/internship_project).
+3. Create a name for the profile such as "[internship_project](https://www.cloudlab.us/p/mptcpl4spqc/internship_project)".
 4. Select Git Repo and copy and paste the link for [this repository](https://github.com/shamsWMM/internship_project.git).
 5. Click Confirm then click Create.
 
